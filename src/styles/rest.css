@@ -1,0 +1,127 @@
+body {
+  background-color: #3c2c3e;
+}
+
+.homebg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Images/homebg.jpg");
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  background-attachment: fixed;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+.search-field {
+  height: 20px;
+  padding: 5px;
+  margin: 2px;
+}
+.skills {
+  width: 400px;
+}
+
+.location {
+  width: 400px;
+}
+.cate {
+  height: 35px;
+}
+.search-btn {
+  height: 35px;
+  width: 150px;
+  background: #f44336;
+  padding: 5px;
+  margin: 2px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.search-btn:hover {
+  background: #bb0d00;
+}
+.form1-box {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px 20px;
+  width: 80vw;
+}
+.res {
+  width: 25rem;
+  height: auto;
+  margin: 8rem auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 1px 1px #aaa;
+}
+.resl {
+  width: 450px;
+  height: 450px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+.res2 {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ft {
+  font-size: 6rem;
+  color: white;
+  text-transform: uppercase;
+  margin: 4rem 0;
+}
+
+#search {
+  width: 60%;
+  padding: 20px, 20px;
+  font-size: 30px;
+  margin-top: 5rem;
+  margin-left: 25rem;
+}
+#button {
+  width: 100px;
+  padding: 20px, 20px;
+  font-size: 30px;
+  margin-top: 5rem;
+  background-color: green;
+}
+.cardtext{
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.pb {
+  margin: 45px;
+  padding: 10px;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+}
+.resbtn{
+  background-color: #cb202d;
+  color: white;
+  width: 120px;
+  height: 30px;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2px;
+}
